@@ -10,26 +10,103 @@ aside {
     width: 29%;
     min-height: 989px;
     margin:0px;
-    background-color: yellow;
+    background-color: #262862;
 }
-.search form {
-    margin: 0px 0px 0px 16px;
+.search {
+height: 159px;
+width: 425px;
+border-radius: 0px;
+background-color: #373867;
+}
+.search-bar {
+    margin: 64px 0px 0px 16px;
     width: 100%;
+    height: 60px;
+    width: 348px;
+    border-radius: 5px;
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #373867;
+    border-color: #49A37B 1px;
 }
 .btn-search {
-    width:30px;
-    height: 30px;
+    width:15px;
+    height: 15px;
     border-radius: 5px;
+    background-color: #FFFFFF;
 }
 .search ul{
-    margin: 69px 0px 0px 16px;
-    width: 100%;
+    margin: 49px 33px 0px 0px;
+    width: 425px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+.search ul li {
+    margin: 16px;
+    border-bottom: 1px solid #49A37B;
+    margin-bottom: 69px;
+    list-style: none;
+}
+.search ul a {
+    text-decoration: #262862;
+    color: #FFFFFF
+}
+.address-box{
+    margin: 296px 33px 0 0;
+    background-color: #262862;
+    }
+.address-box h3 {
+    height: 56px;
+    width: 425px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    border-bottom: 4px solid #49A37B;
+}
+.adress-box p {
+    height: 180px;
+    width: 450px;
+    margin: 80px 0 0 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-align: justify;
+}
+.address-box address {
+    height: 300px;
+    margin: 52px 33px 0px 0px;
+}
+.address-box a {
+    margin: 0px 0px 0px 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    /*border-bottom: 1px solid #49A37B;
+    width:450px;*/
+    text-decoration: #262862;
+    color:#FFFFFF;
+    float:right;
+}
+.address-box img {
+    height: 32px;
+    margin: 0 0px 0 0;
+    width: 25px;
+    border-radius: 0px;
+    float:left;
 }
 main {
     height: 100%;
     width: 100%;
     min-height: 989px;
-    background-color:yellowgreen;
     position:absolute;
     top:0px;
     left: 450px;
@@ -45,7 +122,6 @@ main {
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
-    background-color: red;
     width:242px;
 }
 .header h2 {
@@ -57,7 +133,6 @@ main {
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
-    background-color: blue;
 }
 .header ul li {
     display: inline-block;
@@ -79,7 +154,6 @@ main {
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    background-color: aqua;
 }
 .box-1 h3 {
     height: 34px;
@@ -90,7 +164,6 @@ main {
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    background-color: purple;
 }
 .box-1 p {
     height: 355px;
@@ -100,14 +173,12 @@ main {
     font-weight: 400;
     line-height: 23px;
     text-align: justify;
-    background-color: grey;
 }
 .box-1 img {
     height: 427px;
     width: 50%;
     margin:0 0 0 500px;
     border-radius: 0px;
-    background-color: black;
 }
 .btn-learn {
     height: 18px;
