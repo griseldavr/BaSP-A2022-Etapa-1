@@ -123,13 +123,14 @@ main {
     float: right;
 }
 .header {
-    width: 90%;
-    height: 159px;
+    width: 100%;
+    height: auto;
     margin-left:25px;
     border-bottom: 4px solid #49A37B;
 }
 .header h1 {
     padding-top:84px;
+    padding-bottom: 25px;
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
@@ -157,8 +158,8 @@ main {
     width: 26px;
 }
 .description-box {
-    width: 95%;
-    height: auto;
+    width: 100%;
+    min-height: 650px;
     margin-top: 18px;
     margin-left: 25px;
     padding: 25px 0px;
@@ -187,6 +188,7 @@ main {
 }
 .description-box img {
     padding-left: 60px;
+    margin-top: -115px;
     height: 500px;
     width: 427px;
     float: right;
@@ -207,7 +209,7 @@ main {
     text-transform: uppercase;
 }
 .functions-box {
-    width: 95%;
+    width: 100%;
     height: auto;
     padding: 87px 25px;
     border-bottom:4px #49A37B solid;
@@ -220,7 +222,7 @@ main {
     border-radius: 10px;
 }
 .functions-box h2 {
-    width: 148px;
+    width: fit-content;
     font-size: 30px;
     font-weight: 700;
     line-height: 35px;
@@ -250,89 +252,104 @@ main {
     padding-bottom: 25px;
     height: 78px;
 }
-
-.why-box h2 {
-    height: 49px;
-    width: 920px;
+.why-box {
+    padding-top: 100px;
+    padding-bottom:100px;
+    width: 100%;
     border-bottom:4px #49A37B solid;
+}
+.why-box h2 {
+    border-bottom:4px #49A37B solid;
+    width:fit-content;
+    padding-bottom: 8px;
     font-size: 30px;
     font-weight: 700;
     line-height: 35px;
     text-align: left;
 }
-.square {
-    width:214px;
-    margin:28px;
-    padding: 17px;
+.why-box div {
+    margin-top: 88px;
+    margin-right: 32px;
+    padding: 15px;
     background-color: #FFFFFF;
     border-radius: 17px;
     color:#373867;
-}
-.square h3 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-    text-align: left;
     display: inline-block;
-    }
-.square p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
+    width: 17%;
+    position:relative;
 }
-.square img {
-    height: 37px;
-    width: 27px;
-    float:right;
+.why-box h3 {
+    font-size: 16px;
+    padding: 40px 0px 0px 0px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 23px;
+    }
+.why-box p {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 5px;
+}
+.why-box img {
+    position:absolute;
+    top: 12px;
+    right: 15px;
 }
 .form-contact {
-    height: 526px;
+    margin-top: 53px;
     text-align: left;
-    letter-spacing: 0em;
+    height: auto;
+    width: 100%;
+    border-bottom:4px #49A37B solid;
+    padding-bottom: 111px;
 }
 .form-contact h2 {
-    height: 49px;
-    width: 246px;
-    margin-bottom: 35px;
+    width: fit-content;
+    margin-bottom: 45px;
+    padding-bottom: 5px;
     font-size: 30px;
     font-weight: 700;
     line-height: 35px;
-    border-bottom:#49A37B solid;
+    border-bottom:4px #49A37B solid;
 }
-.form-contact input, select, textarea, label {
-    border:#E0E0E0 solid 1px;
-    background-color: transparent;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 35px;
+.form-contact input, select, textarea {
+    border: 1px solid #E0E0E0;
+    background:none;
+    border-radius: 4px;
+    width:100%;
+    margin-bottom: 30px;
 }
 .form-contact label {
-    height: 15px;
+    height: 30px;
     font-size: 13px;
     font-weight: 500;
     line-height: 15px;
     border: none;
 }
 .form-contact input {
-    height: 16px;
-    width:42%;
-    margin-right: 75px;
+    height: 30px;
+    width:45%;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
 }
+.form-name {
+    margin-right: 75px;
+}
 .form-contact select {
-    height: 16px;
+    height: 30px;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
+    margin-top: 30px;
 }
 .form-contact textarea {
     height: 150px;
     border-radius: 5px;
     padding-left: 10px;
+    padding-top:10px;
+    margin-top: 30px;
 }
 .form-contact button {
     height: 34px;
@@ -349,78 +366,97 @@ main {
 .btn-reset {
     background-color: #F13312;
 }
-.box-4 {
-height:890px;
-width: 100%;
-letter-spacing: 0em;
-text-align: left;
+.about-box {
+    width: 100%;
+    height: 950px;
+    text-align: left;
+    margin-top: 59px;
+    border-bottom: 4px solid #49A37B;
 }
-.box-4 h2 {
-height: 51px;
-width: 247px;
-font-size: 30px;
-font-weight: 700;
-line-height: 35px;
-border-bottom:#49A37B solid;
+.about-box h2 {
+    width: fit-content;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    border-bottom: 4px solid #49A37B;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
 }
-.box-4 h3 {
-    height: 34px;
-    width: 160px;
+.about-box h3 {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
+    padding-top: 20px;
+    padding-bottom: 16px;
 }
-.box-4 p {
-    height: 84px;
-    width: 942px;
+.about-box p {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
+    padding-bottom: 25px;
 }
 .quote {
     padding: 16px;
-    border-left: #FFFFFF solid 1px;
+    border-left: 1px solid #FFFFFF;
     font-style: italic;
 }
-.text-1
-{   width: 665px;
-    text-align: left;
+.about-box .div-1 p {
+    width: 100%;
+    padding: 25px 0px;
 }
-.text-3 {
+.about-box .div-2 p {
+    width: 65%;
+    padding: 25px 0px;
+}
+.about-box .div-1 img {
     float:left;
-    text-align: left;
-    width: 665px;
+    width: 35%;
+    padding-top: 15px;
+    padding-right: 25px;
 }
-.img-1 {
-    float:left;
-    height: 222px;
-    width: 238px;
-    border-radius: 60px;
-}
-.img-2{
+.about-box .div-2 img {
     float:right;
+    width: 35%;
+    margin-top: -175px;
 }
-.box-5 {
-    height: 87px;
-    width: 125px;
+.quick-links-box {
+    margin-left: 150px;
+    margin-right: auto;
+    width: 90%;
+}
+.link-product, .link-company, .link-support {
+    display: inline-block;
+    width: 33%;
+}
+.quick-links-box h2 {
+    padding: 26px 0px 9px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+.quick-links-box a {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    letter-spacing: 0em;
     text-align: left;
 }
-.link-list-1{
-    float:left;
-}
-/*.link-list-2{
-    float:center;
-}*/
-.link-list-3{
-    float:right;
-}
-footer {
-    height: 21px;
-    width: 123px;
-    float:center;
+.footer {
+    margin: 70px auto;
+    width: 35%;
     }
+.footer p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+.social-media-footer {
+    padding-bottom: 58px;
+}
+.social-media-footer li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 32px;
+}
