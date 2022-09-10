@@ -140,6 +140,18 @@ body {
     font-weight: 400;
     line-height: 14px;
 }
+.social-media-icon {
+    float: right;
+    padding: 2px;
+    padding-top: 101px;
+}
+.social-media-icon li {
+    display: inline-block;
+}
+.social-media-icon a {
+    height: 26px;
+    width: 26px;
+}
 .description-box {
     width: 97%;
     margin: 18px 0px 0px 25px;
