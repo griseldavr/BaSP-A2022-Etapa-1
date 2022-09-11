@@ -7,7 +7,11 @@ Creation of the landing page using FIGMA for mobile, tablet and desktop versions
 Layout the landing page for desktop with the sidebar using HTML. Creation of the README file and of a new repository on Github
 
 ## Week 03
-Add CSS styles to the landing page for Trackgenix desktop version.
+Adding of CSS styles to the landing page for Trackgenix desktop version.
+
+## Week 4
+
+Replication of the landing page for Trackgenix using Flexbox for creating a responsive design under the concept of Mobile First.
 
 ## Authors
 -Griselda Vera

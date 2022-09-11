@@ -1,0 +1,22 @@
+#footer {
+    margin: 35px 16px;
+    width: 92%;
+    }
+#footer p {
+    padding-top: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+.social-media-footer {
+    margin-left:50px;
+    padding-bottom: 30px;
+}
+.social-media-footer li {
+    display: inline;
+    padding-right: 15px;
+}
+.social-media-footer a:link, a:visited,  a:hover, a:active {
+    text-decoration: none;
+}
