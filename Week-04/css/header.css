@@ -51,14 +51,15 @@
     }
 }
 @media only screen and (min-width: 1024px){
-    #header {
+    #header .flex-header{
         display:flex;
         justify-content: flex-start;
         align-items: baseline;
-        margin: 16px;
     }
     #header {
-        width: 97%;
+        float:right;
+        width: 69%;
+        margin: 0px 0px 0px 25px;
         height: auto;
         margin-left:25px;
         border-bottom: 4px solid #49A37B;
