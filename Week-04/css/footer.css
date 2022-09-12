@@ -1,7 +1,10 @@
 #footer {
-    margin: 35px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 92%;
-    }
+    margin: 16px;
+}
 #footer p {
     padding-top: 35px;
     font-size: 12px;
@@ -10,7 +13,6 @@
     text-align: center;
 }
 .social-media-footer {
-    margin-left:50px;
     padding-bottom: 30px;
 }
 .social-media-footer li {
