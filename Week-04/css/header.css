@@ -1,20 +1,15 @@
 #header {
-    width: 92%;
+    width: 90%;
     height: auto;
-    margin:16px;
+    margin: 5vh 0 0 0;
+    padding-bottom: 2vh;
     border-bottom: 4px solid #49A37B;
 }
-#header h1 {
-    display:inline-block;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
-}
-#header h2 {
-    margin-left: 74px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
+#header .flex-container-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 #header button {
     width: fit-content;
@@ -22,59 +17,57 @@
     background-color: transparent;
     border:0;
 }
+#header img {
+    width:5vh;
+    height:5vh;
+}
+#header h1 {
+    width: 65%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 47px;
+}
+#header h2 {
+    margin-left: 8vh;
+    font-size: 0.70rem;
+    font-weight: 400;
+    line-height: 14px;
+}
 @media only screen and (min-width: 480px){
-    #header {
-        display:flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        margin: 16px;
-        width: 95%;
-    }
     #header h1 {
-        margin-left: 25px;
-        padding-top: 64px;
+        font-size: 1.5rem;
     }
     #header h2 {
-        margin-left: 95px;
+        margin-left: 7vh;
+        font-size: 1rem;
     }
 }
 @media only screen and (min-width: 768px){
-    #header {
-        display:flex;
-        justify-content: flex-start;
-        align-items: baseline;
-        margin: 16px;
-    }
     #header h1 {
-        padding-top:74px;
-        padding-bottom: 22px;
+        font-size: 2rem;
+    }
+    #header h2 {
+        margin-left: 6vh;
+        font-size: 1.25rem;
     }
 }
 @media only screen and (min-width: 1024px){
-    #header .flex-header{
-        display:flex;
-        justify-content: flex-start;
-        align-items: baseline;
-    }
     #header {
         float:right;
-        width: 69%;
-        margin: 0px 0px 0px 25px;
-        height: auto;
-        margin-left:25px;
+        width: 70%;
         border-bottom: 4px solid #49A37B;
     }
+    #header .flex-container-header{
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
     #header h1 {
-        padding-top:84px;
-        padding-bottom: 25px;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 47px;
+        width: fit-content;
+        margin-left: 3vh;
+        font-size: 2.25rem;
     }
     #header h2 {
-        margin-left:18px;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 14px;
+        margin-left: 5vh;
+        font-size: 1rem;
     }
 }
