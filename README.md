@@ -14,6 +14,9 @@ Adding of CSS styles to the landing page for Trackgenix desktop version.
 Replication of the landing page for Trackgenix using Flexbox for creating a responsive design under the concept of Mobile First.
 Site: https://griseldavr.github.io/BaSP-A2022-Etapa-1/
 
+## Week 5
+
+Practice with JavaScript exercises and correction of CSS Styles for the landing page from the previous week.
 
 ## Authors
 -Griselda Vera
