@@ -40,14 +40,16 @@ console.log('-----EXERCISE 3.e-----');
 var monthsReverse = monthsSort.reverse();
 
 console.log('Invert array order:', monthsReverse);
+
 //Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
+console.log('-----EXERCISE 3.f-----');
 
 var monthsJoin = months.join(' - ');
 
 console.log('Join all items separated by -:', monthsJoin);
 
 //Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
-console.log('-----EXERCISE 3.f-----');
+console.log('-----EXERCISE 3.g-----');
 
 var monthsSlice = months.slice(4,11);
 
