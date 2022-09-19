@@ -13,7 +13,7 @@ console.log('Months 5th and 11th:', months[4],',', months[10]);
 //Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
 console.log('-----EXERCISE 3.b-----');
 
-var monthsCopy= months.slice();
+var monthsCopy = months.slice();
 var monthsSort = monthsCopy.sort();
 
 console.log('Sorted Months alphabetically:', monthsSort);

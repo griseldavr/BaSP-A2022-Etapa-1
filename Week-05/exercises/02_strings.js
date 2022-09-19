@@ -63,14 +63,3 @@ favoriteAuthor.substring(11,12).toUpperCase()+
 favoriteAuthor.substring(favoriteAuthor.length - 9).toLowerCase();
 
 console.log('Favorite Author with first letters of each word in uppercase:', upperFavoriteAuthor);
-
-
-
-
-
-
-
-
-
-
-
