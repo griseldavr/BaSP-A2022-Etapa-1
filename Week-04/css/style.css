@@ -1,10 +1,32 @@
 body {
+    display: flex;
     min-height: 100vw;
     max-width: 100%;
-    margin: 2vh;
+    margin: 0 auto;
     overflow-x: hidden;
     background-color: #373867;
+    font-size: 16px;
     font-family: "Roboto";
     color: #FFFFFF;
     text-align: left;
+}
+
+.content {
+        width: fit-content;
+        margin-bottom: 1.75rem;
+}
+@media only screen and (min-width: 480px){
+    body {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 760px){
+    body {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    body {
+        font-size: 22px;
+    }
 }

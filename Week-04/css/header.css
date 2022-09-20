@@ -1,73 +1,59 @@
 #header {
     width: 90%;
     height: auto;
-    margin: 5vh 0 0 0;
-    padding-bottom: 2vh;
+    margin: 1.75rem auto;
+    padding-bottom: 0.625rem;
     border-bottom: 4px solid #49A37B;
 }
+
 #header .flex-container-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
 }
+
 #header button {
     width: fit-content;
     height: fit-content;
     background-color: transparent;
     border:0;
 }
+
 #header img {
-    width:5vh;
-    height:5vh;
+    width:2.5rem;
+    height:2.5rem;
 }
+
 #header h1 {
     width: 65%;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: 700;
     line-height: 47px;
 }
+
 #header h2 {
-    margin-left: 8vh;
-    font-size: 0.70rem;
+    margin-left: 3rem;
+    font-size: 0.70em;
     font-weight: 400;
     line-height: 14px;
 }
-@media only screen and (min-width: 480px){
-    #header h1 {
-        font-size: 1.5rem;
-    }
-    #header h2 {
-        margin-left: 7vh;
-        font-size: 1rem;
-    }
-}
-@media only screen and (min-width: 768px){
-    #header h1 {
-        font-size: 2rem;
-    }
-    #header h2 {
-        margin-left: 6vh;
-        font-size: 1.25rem;
-    }
-}
-@media only screen and (min-width: 1024px){
-    #header {
-        float:right;
-        width: 70%;
-        border-bottom: 4px solid #49A37B;
-    }
+
+@media only screen and (min-width: 1024px) {
     #header .flex-container-header{
         flex-wrap: nowrap;
         align-items: baseline;
     }
+
     #header h1 {
         width: fit-content;
-        margin-left: 3vh;
-        font-size: 2.25rem;
     }
+
     #header h2 {
-        margin-left: 5vh;
-        font-size: 1rem;
+        margin-left: 2rem;
+    }
+
+    #header button {
+        display: none;
     }
 }

@@ -17,6 +17,7 @@ Site: https://griseldavr.github.io/BaSP-A2022-Etapa-1/
 ## Week 5
 
 Practice with JavaScript exercises and correction of CSS Styles for the landing page from the previous week.
+Landing page site: https://griseldavr.github.io/BaSP-A2022-Etapa-1/
 
 ## Authors
 -Griselda Vera

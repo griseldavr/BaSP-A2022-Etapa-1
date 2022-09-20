@@ -1,40 +1,49 @@
 #main {
     width: 90%;
+    margin: 0 auto;
 }
+
 .description-box {
+    width: auto;
     height: auto;
+    padding: 1rem 0 5rem 0;
     border-bottom: 4px solid #49A37B;
 }
+
 .description-box h2 {
-    padding: 5vh 0;
-    font-size: 1.25rem;
+    padding: 2rem 0;
+    font-size: 1.25em;
     font-weight: 700;
     line-height: 35px;
 }
+
 .description-box h3 {
-    padding: 3vh 0;
-    font-size: 0.75rem;
+    padding: 1rem 0;
+    font-size: 1em;
     font-weight: 400;
     line-height: 23px;
 }
+
 .description-box p {
-    margin: 5vh 0 15vh 0;
-    font-size: 0.65rem;
+    margin: 2rem 0 5rem 0;
+    font-size: 0.75em;
     font-weight: 400;
     line-height: 23px;
     text-align: left;
 }
+
 .description-box img {
     max-height: 50%;
     max-width: 60%;
-    margin-top: 8vh;
-    border-radius: 0px;
+    margin-top: 1.5rem;
+    border-radius: 0;
 }
+
 .btn-learn {
-    padding: 16px 16px;
+    padding: 1rem;
     border-radius: 5px;
     background-color: #49A37B;
-    font-size: 0.65rem;
+    font-size: 0.65em;
     font-weight: 700;
     line-height: 18px;
     text-align: center;
@@ -42,294 +51,316 @@
     text-decoration-color: #FFFFFF;
     text-transform: uppercase;
 }
+
 .functions-box {
     height:auto;
-    margin-top:8vh;
-    padding-bottom: 15vh;
+    width: auto;
+    margin-top:2.5rem;
+    padding-bottom: 2rem;
     border-bottom:4px #49A37B solid;
 }
-.functions-box div {
-    padding: 5vh 0;
+
+.functions-box .functions-div {
+    padding: 1.56rem 0;
     border-radius: 10px;
 }
+
 .functions-box h2 {
     width: fit-content;
     border-bottom:4px #49A37B solid;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: 700;
     line-height: 35px;
 }
+
 .functions-box h3 {
-    padding-top: 3vh;
-    font-size: 0.75rem;
+    padding-top: 1rem;
+    font-size: 1em;
     font-weight: 400;
     line-height: 23px;
 }
+
 .functions-box p {
-    padding: 3vh 0;
-    font-size: 0.65rem;
+    padding: 1rem 0;
+    font-size: 0.75em;
     font-weight: 400;
     line-height: 14px;
 }
+
 .functions-box img {
-    height: 78px;
+    height: 3rem;
 }
+
 .why-box {
     height:auto;
-    margin-top: 8vh;
-    padding-bottom: 15vh;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
     border-bottom:4px #49A37B solid;
 }
+
 .why-box h2 {
     width:fit-content;
-    padding-bottom: 1vh;
+    padding-bottom: 0.31rem;
     border-bottom:4px #49A37B solid;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: 700;
 }
-.boost-div, .manage-div, .business-div, .decision-div {
-    position:relative;
-    margin:5vh 0;
-    padding: 3vh;
+
+.why-box .why-div {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:1.56rem 1rem;
+    padding: 1rem;
     background-color: #FFFFFF;
     border-radius: 17px;
     color:#373867;
 }
+
 .why-box h3 {
-    padding: 3vh 0px 0px 0px;
-    font-size: 0.75rem;
+    width: 83%;
+    padding: 1rem 0 0 0;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 23px;
-    }
+}
+
 .why-box p {
-    padding-top: 3vh;
-    font-size: 0.65rem;
+    padding-top: 1rem;
+    font-size: 0.65em;
     font-weight: 400;
 }
+
 .why-box img {
-    position:absolute;
-    top: 12px;
-    right: 15px;
+    height: 1.5rem;
+    width: 1.5rem;
 }
+
 .form-contact {
     height: auto;
-    margin-top: 8vh;
-    padding-bottom: 15vh;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
     border-bottom:4px #49A37B solid;
 }
+
 .form-contact h2 {
     width: fit-content;
-    margin-bottom: 9vh;
-    padding-bottom: 1vh;
+    margin-bottom: 2.5rem;
+    padding-bottom: 0.31rem;
     border-bottom:4px #49A37B solid;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: 700;
     line-height: 35px;
 }
+
 .form-contact input, select, textarea {
-    margin-bottom: 6vh;
+    margin: 1rem;
     background:none;
     border: 1px solid #E0E0E0;
     border-radius: 4px;
     color:#FFFFFF;
 }
+
 .form-contact input {
     width: 95%;
-    padding-left: 1vh;
-    height: 6vh;
-    font-size: 0.65rem;
+    padding-left: 0.31rem;
+    height: 1.875rem;
+    font-size: 0.75em;
     font-weight: 400;
     line-height: 16px;
 }
+
 .form-contact select {
     width: 95%;
-    padding-left: 1vh;
-    margin-top: 3vh;
-    height: 6vh;
+    padding-left: 0.31rem;
+    height: 1.875rem;
     background-color: #373867;
     color:#FFFFFF;
     opacity: 0.5;
-    font-size: 0.65rem;
+    font-size: 0.75em;
     font-weight: 400;
     line-height: 16px;
 }
+
 .form-contact label {
     width: 95%;
-    height: 6vh;
     border: none;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     font-weight: 500;
     line-height: 15px;
 }
+
 .form-contact textarea {
     width: 95%;
-    height: 30vh;
-    padding-left: 2vh;
-    padding-top: 2vh;
-    margin-top: 6vh;
+    height: 6rem;
+    margin-bottom: 2.8rem;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
     border-radius: 5px;
-    font-size: 0.65rem;
+    font-size: 0.75em;
 }
+
 .form-contact button {
-    height: 7vh;
-    width: 13vh;
-    margin-right: 4vh;
+    height: 2rem;
+    width: 4rem ;
+    margin-right: 1.25rem;
     border:transparent;
     border-radius: 5px;
     text-align: center;
     color: #FFFFFF;
-    font-size: 0.65rem;
+    font-size: 0.65em;
 }
+
 .btn-submit {
     background-color: #49A37B;
 }
+
 .btn-reset {
     background-color: #F13312;
 }
+
 .about-box {
-    margin-top:8vh;
-    padding-bottom: 15vh;
+    margin-top:2.5rem;
+    padding-bottom: 2rem;
     border-bottom: 4px solid #49A37B;
 }
+
 .about-box h2 {
     width: fit-content;
-    padding-bottom: 1vh;
-    margin-bottom: 5vh;
+    padding-bottom: 0.31rem;
+    margin-bottom: 1.56rem;
     border-bottom: 4px solid #49A37B;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: 700;
     line-height: 35px;
 }
+
 .about-box h3 {
-    padding-top: 2vh;
-    padding-bottom: 3vh;
-    font-size: 0.75rem;
+    padding-top: 0.625rem;
+    padding-bottom: 1rem;
+    font-size: 1em;
     font-weight: 400;
     line-height: 23px;
 }
+
 .about-box p {
-    padding-bottom: 2vh;
-    font-size: 0.65rem;
+    padding-bottom: 0.625rem;
+    font-size: 0.75em;
     font-weight: 400;
     line-height: 14px;
 }
+
 .flex-about {
     display: flex;
     justify-content:space-between;
     align-items: flex-start;
 }
+
 .flex-about img {
     width: 50%;
-    padding-left: 2vh;
+    padding-left: 0.625rem;
 }
+
 .quote {
-    padding: 1vh;
+    padding: 0.31rem;
     border-left: 1px solid #FFFFFF;
     font-style: italic;
 }
-.about-box .div-1,.div-2 {
-    margin-top: 5vh;
+
+.about-box .about-flex-container-1,.about-flex-container-2 {
+    margin-top: 1.56rem;
     display:none;
 }
+
 .about-title-3 {
-    margin-top: 3vh;
+    margin-top: 1rem;
     display:none;
 }
+
 .quick-links-box {
     width: 94%;
-    margin-top: 8vh;
-    padding:0px 0px 15vh 4vh;
+    margin-top: 2.5rem;
+    padding:0 0 2rem 1.25rem;
     border-bottom: 4px solid #49A37B;
 }
+
 .quick-links-box h2 {
-    padding: 5vh 0px 2vh 0px;
-    font-size: 1.25rem;
+    padding: 1.56rem 0 0.625rem 0;
+    font-size: 1.25em;
     font-weight: 400;
     line-height: 23px;
     text-align: left;
 }
+
 .quick-links-box li {
     list-style-type: decimal;
 }
+
 .quick-links-box a:link, a:visited,  a:hover, a:active {
     text-align: left;
     color:#FFFFFF;
     text-decoration: none;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     font-weight: 400;
     line-height: 14px;
 }
-@media only screen and (min-width: 480px){
-    #main {
-        width: 94%;
-    }
-    .description-box h2 {
-        font-size: 1.5rem;
-    }
-    .description-box h3 {
-        font-size: 1rem;
-    }
-    .description-box p {
-        font-size: 1rem;
-    }
+
+@media only screen and (min-width: 480px) {
     .functions-box div {
         display:flex;
         flex-wrap: wrap;
         justify-content:flex-start;
         align-items: flex-start;
-        padding: 6vh 1vh;
-        border-radius: 10px;
     }
+
     .functions-box h3 {
-        padding: 4vh 0 0 2vh;
-        font-size: 1rem;
+        padding: 0.650rem 0 0 0.625rem;
     }
+
     .functions-box p {
-        padding: 0px 3vh 0 13vh;
-        font-size: 0.75rem;
+        padding: 0 1rem 1rem 4rem;
     }
-    .why-box {
-        width: 100%;
-    }
-    .why-box div {
-        margin: 2vh;
-    }
-    .why-box .flex-container-why {
+
+    .why-box .flex-div-why {
         display: flex;
-        justify-content: space-evenly;
     }
-    .form-contact input {
-        width: 40%;
+
+    .form-contact .form-flex-name-email {
+        display: flex;
+        justify-content: space-between;
     }
-    .form-contact .form-name {
-        margin-right: 5vh;
-    }
+
     .flex-about img {
         display: none;
     }
-    .about-box .div-1,.div-2 {
-        display:initial;
-    }
+
     .about-box .about-p-2 {
         display: none;
     }
+
     .about-title-3 {
         display:initial;
     }
-    .about-box .div-1 {
+
+    .about-box .about-flex-container-1 {
         display:flex;
         align-content: flex-start;
         text-align: justify;
     }
-    .about-box .div-2 {
+
+    .about-box .about-flex-container-2 {
         display:flex;
         align-content: flex-end;
         text-align: justify;
     }
+
     .about-box img {
         width: 35%;
         height: 5%;
+        padding: 0.75rem;
     }
+
     .quick-links-box {
         display: flex;
         justify-content: space-evenly;
@@ -337,216 +368,35 @@
         margin-right: auto;
     }
 }
-@media only screen and (min-width: 768px){
-    .description-box h2 {
-        font-size: 2rem ;
-    }
-    .description-box h3 {
-        font-size: 1.75rem ;
-    }
-    .description-box p {
-        font-size: 1rem ;
-    }
-    .functions-box h2 {
-        font-size: 2rem;
-    }
-    .functions-box h3 {
-        font-size: 1.75rem;
-    }
-    .functions-box p {
-        font-size: 1rem;
-    }
-    .why-box h2 {
-        font-size: 2rem;
+
+@media only screen and (min-width: 768px) {
+
+    .why-box .flex-container-why {
+        display:flex;
     }
     .why-box h3 {
-        font-size: 1.55rem;
-    }
-    .why-box p {
-        font-size: 1rem;
-    }
-    .why-box div {
-        width:35%;
-    }
-    .form-contact h2 {
-        font-size: 2rem;
-    }
-    .form-contact input {
-        width: 43%;
-        font-size: 1.45rem;
-    }
-    .form-contact .form-name {
-        margin-right: 8vh;
-    }
-    .form-contact select {
-        width: 100%;
-        font-size: 1.45rem;
-    }
-    .form-contact label {
-        font-size: 1.45rem;
-    }
-    .form-contact textarea {
-        width: 100%;
-    }
-    .form-contact button {
-        font-size: 1rem;
-    }
-    .about-box h2 {
-        font-size: 2rem;
-    }
-    .about-box h3 {
-        font-size: 1.75rem;
-    }
-    .about-box p {
-        font-size: 0.75rem;
-    }
-    .about-box img {
-        padding: 1vh;
-    }
-    .quick-links-box {
-        width: 98%;
+        width: 75%;
     }
 }
-@media only screen and (min-width: 1024px){
-    #main {
-        float: right;
-        width: 72%;
-    }
-    .description-box {
-        width: 100%;
-        height: 125vh;
-        margin: 3vh 0 0 5vh;
-    }
-    .description-box h2 {
-        font-size: 2.25rem;
-    }
-    .description-box h3 {
-        font-size: 2rem;
-    }
-    .description-box p {
-        font-size: 1.25rem;
-    }
-    .flex-container-description {
+
+@media only screen and (min-width: 1024px) {
+    .description-flex-div {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row-reverse;
     }
-    .description-box img {
-        float: right;
+
+    .description-flex-div img {
+        width: 40%;
+        height: 25rem;
+        padding-left: 2rem;
+    }
+
+    .functions-div {
+        display: inline-block;
         width: 50%;
-        height: 75vh;
-    }
-    .btn-learn {
-        font-size: 1rem;
-    }
-    .functions-box {
-        width: 100%;
-        margin: 8vh 0 0 5vh;
-        padding-bottom: 10vh;
-    }
-    .functions-box div {
-        display:inline-block;
-        width: 43%;
-        margin-bottom: 4vh;
-        padding: 1vh;
-        border-radius: 10px;
-    }
-    .functions-box .functions-div {
-        margin-right: 8vh;
-    }
-    .functions-box h2 {
-        width: fit-content;
-        font-size: 2.25rem;
-    }
-    .functions-box h3 {
-        padding-top: 7vh;
-        font-size: 1.55rem;
-    }
-    .functions-box p {
-        padding: 3vh;
-        font-size: 0.75rem;
-        text-align: justify;
-    }
-    .functions-box img {
-        float: left;
-        margin-left: 2vh;
-        margin-right: 2vh;
-        padding-top: 7vh;
-        margin-bottom: 10vh;
-        height: 78px;
-    }
-    .why-box {
-        width: 100%;
-        margin: 8vh 0 0 5vh;
-        padding-bottom: 10vh;
-        border-bottom:4px #49A37B solid;
-    }
-    .why-box h2 {
-        font-size: 2.25rem;
-    }
-    .boost-div, .manage-div, .business-div, .decision-div {
-        margin: 0;
-        padding: 0;
-    }
-    .why-box .flex-container-why {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
-    }
-    .why-box div {
-        width: fit-content;
-        height: fit-content;
-        margin: 2vh;
-        padding: 2vh;
-    }
-    .why-box h3 {
-        padding-top: 5vh;
-        font-size: 1rem;
-        }
-    .why-box p {
-        font-size: 0.75rem;
-    }
-    .form-contact {
-        width: 100%;
-        margin: 8vh 0 0 5vh;
-        padding-bottom: 10vh;
-    }
-    .form-contact h2 {
-        font-size: 2.25rem;
-    }
-    .form-contact select {
-        width: 97%;
-    }
-    .form-contact textarea {
-        width: 97%;
-    }
-    .form-contact button {
-        font-size: 1rem;
-    }
-    .about-box {
-        width: 100%;
-        margin: 8vh 0 0 5vh;
-        padding-bottom: 10vh;
-    }
-    .about-box h2 {
-        font-size: 2.25rem;
-    }
-    .about-box h3 {
-        font-size: 2rem;
-    }
-    .about-box p {
-        font-size: 1.15rem;
+        margin-bottom: 2rem;
     }
     .quick-links-box {
-        display: flex;
-        justify-content: space-between;
-        margin: 8vh 0 0 5vh;
         width:95%;
-    }
-    .quick-links-box h2 {
-        font-size: 2rem;
-        padding-bottom: 5vh;
-    }
-    .quick-links-box a:link, a:visited,  a:hover, a:active {
-        font-size: 1.1rem;
     }
 }
