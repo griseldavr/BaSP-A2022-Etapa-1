@@ -3,7 +3,7 @@ console.log ('----------EXERCISE 4 : IF_ELSE----------');
 /*Create a random number between 0 and 1 using the Math.random() function, if the value is greater than or equal to 0.5
 *display an alert with the message “Greater than 0.5” and otherwise an alert with the message “Lower than 0.5”.
 */
-console.log('-----EXERCISE 3.a-----');
+console.log('-----EXERCISE 4.a-----');
 
 var randomNumber = Math.random();
 
@@ -16,7 +16,7 @@ else {
 
 /*Create a variable “Age” that contains an integer between 0 and 100 and displays the following alert messages:
 */
-console.log('-----EXERCISE 3.b-----');
+console.log('-----EXERCISE 4.b-----');
 
 var age = Math.floor(Math.random() * 101);
 
