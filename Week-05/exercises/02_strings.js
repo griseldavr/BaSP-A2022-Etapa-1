@@ -35,8 +35,8 @@ console.log ('Last 3 characters substracted from Hair Color:', substHairColor);
 console.log('-----EXERCISE 2.d-----');
 
 var eyeColor = 'light brown';
-var upperEyeColor = eyeColor.substring(0,1).toUpperCase() + eyeColor.substring (1).toLowerCase();
 
+var upperEyeColor = eyeColor.substring(0,1).toUpperCase() + eyeColor.substring (1).toLowerCase();
 console.log('First letter of Eye Color in uppercase:',upperEyeColor);
 
 /*Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del
@@ -45,6 +45,7 @@ console.log('First letter of Eye Color in uppercase:',upperEyeColor);
 console.log('-----EXERCISE 2.e-----');
 
 var favoriteMovie = 'The Shining';
+
 var tabFavoriteMovie = favoriteMovie.indexOf(' ');
 
 console.log('Blank space in Favorite Movie:',tabFavoriteMovie)
@@ -57,6 +58,7 @@ console.log('Blank space in Favorite Movie:',tabFavoriteMovie)
 console.log('-----EXERCISE 2.f-----');
 
 var favoriteAuthor = 'ferdinands canterbury';
+
 var upperFavoriteAuthor = favoriteAuthor.substring(0,1).toUpperCase() +
 favoriteAuthor.substring(1, favoriteAuthor.indexOf(' ')).toLowerCase()+ ' ' +
 favoriteAuthor.substring(11,12).toUpperCase()+

@@ -8,7 +8,7 @@ var colors = ['yellow', 'green', 'violet', 'red', 'pink'];
 
 for (x of colors) {
     alert(x);
-}
+};
 
 /*Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra
 *modificada.
@@ -30,6 +30,7 @@ var sentence = [];
 colors.forEach(element => {
     sentence.push(element);
 });
+
 alert(sentence);
 
 /*Crear una array vacío y con un bucle for de 10 repeticiones. Llenar el array con el número de la repetición, es
@@ -40,7 +41,8 @@ console.log('-----EXERCISE 5.d-----');
 
 var numbers = [];
 
-for(var i=0; i<10; i++){
+for(var i=0; i<10; i++) {
     numbers[i]=i;
 };
+
 console.log(numbers);

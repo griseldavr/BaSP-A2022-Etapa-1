@@ -5,16 +5,19 @@ console.log ('----------EXERCISE 1 : VARIABLES AND OPERATORS----------');
 console.log('-----EXERCISE 1.a-----');
 
 var x, y;
+
 x = 500;
 y = 1500;
 
 var sum = x + y;
+
 console.log('Sum of x + y =',sum);
 
 //1.b-Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable
 console.log('-----EXERCISE 1.b-----');
 
 var firstName, lastName;
+
 firstName = 'Griselda';
 lastName = 'Vera';
 

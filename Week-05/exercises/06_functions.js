@@ -6,8 +6,10 @@ console.log('-----EXERCISE 6.a-----');
 
 function sum(a, b) {
     return a + b;
-}
+};
+
 var sumFunction = sum(5,2);
+
 console.log ('The sum of a + b = ', sumFunction);
 
 /*A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número;
@@ -23,7 +25,7 @@ function sum(a,b) {
     else {
         return a + b;
     }
-}
+};
 
 var sumVar = sum('hello',5);
 console.log ('The sum of a + b = ', sumVar)
@@ -37,6 +39,7 @@ function validateInt(number) {
 }
 
 var valInt = validateInt(550.05);
+
 console.log ('Is this an integer?:', valInt)
 
 /*A la función suma del ejercicio 6b) agregarle una llamada a la función del ejercicio 6c. y que valide que los
@@ -58,9 +61,10 @@ function invalidInt(a,b) {
     return Math.round(b);
     }
     return a + b;
-}
+};
 
 var sumInt = invalidInt(8,10.45);
+
 console.log ('The sum of a + b = ', sumInt)
 
 /*Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la función suma probando
@@ -78,7 +82,8 @@ function newSum(a, b) {
         return bIsInvalid;
     }
     return a + b;
-}
+};
 
 var newSumExecution = sum(10, 'bye');
+
 console.log("Execute new sum: " , newSumExecution);
