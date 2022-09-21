@@ -4,8 +4,6 @@ console.log ('----------EXERCISE 1 : VARIABLES AND OPERATORS----------');
 */
 console.log('-----EXERCISE 1.a-----');
 
-var x, y;
-
 x = 500;
 y = 1500;
 

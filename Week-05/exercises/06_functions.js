@@ -1,7 +1,7 @@
 console.log ('----------EXERCISE 6 : FUNCTIONS----------');
 
-/*Crear una función suma que reciba dos valores numéricos y retorne el resultado. Ejecutar la función y guardar el
-resultado en una variable, mostrando el valor de dicha variable en la consola del navegador.*/
+/*Create a sum function that receives two numeric values ​​and returns the result. Run the function and save the
+result in a variable, displaying the value of said variable in the browser console.*/
 console.log('-----EXERCISE 6.a-----');
 
 function sum(a, b) {
@@ -12,9 +12,9 @@ var sumFunction = sum(5,2);
 
 console.log ('The sum of a + b = ', sumFunction);
 
-/*A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número;
-de no ser un número, mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como
-resultado.*/
+/*To the sum function above, add a validation to check if any of the parameters is not a number;
+if it is not a number, show an alert clarifying that one of the parameters has an error and return the NaN value as
+result.*/
 console.log('-----EXERCISE 6.b-----');
 
 function sum(a,b) {
@@ -30,8 +30,8 @@ function sum(a,b) {
 var sumVar = sum('hello',5);
 console.log ('The sum of a + b = ', sumVar)
 
-/*Aparte, crear una función validate Integer que reciba un número como parámetro y devuelva verdadero si es un
-número entero.*/
+/*Besides, create a validate Integer function that receives a number as a parameter and returns true if it is a
+whole number.*/
 console.log('-----EXERCISE 6.c-----');
 
 function validateInt(number) {
@@ -42,9 +42,9 @@ var valInt = validateInt(550.05);
 
 console.log ('Is this an integer?:', valInt)
 
-/*A la función suma del ejercicio 6b) agregarle una llamada a la función del ejercicio 6c. y que valide que los
-números sean enteros. En caso que haya decimales mostrar un alerta con el error y retornar el número convertido a
-entero (redondeado).*/
+/*To the sum function of exercise 6b) add a call to the function of exercise 6c. and that validates that the
+numbers are integers. In case there are decimals, show an alert with the error and return the number converted to
+integer (rounded).*/
 console.log('-----EXERCISE 6.d-----');
 
 function invalidInt(a,b) {
@@ -67,8 +67,8 @@ var sumInt = invalidInt(8,10.45);
 
 console.log ('The sum of a + b = ', sumInt)
 
-/*Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la función suma probando
-que todo siga funcionando igual.*/
+/*Convert the validation from exercise 6d) into a separate function and call it inside the sum function testing
+that everything continues to work the same.*/
 console.log('-----EXERCISE 6.e-----');
 
 function newSum(a, b) {

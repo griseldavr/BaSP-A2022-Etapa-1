@@ -1,6 +1,6 @@
 console.log ('----------EXERCISE 5 : IF_ELSE----------');
-/*Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript para mostrar
-*una alerta utilizando cada una de las palabras.
+/*Create an array containing 5 words and loop through that array using a JavaScript for loop to display
+*an alert using each of the words.
 */
 console.log('-----EXERCISE 5.a-----');
 
@@ -10,8 +10,8 @@ for (x of colors) {
     alert(x);
 };
 
-/*Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra
-*modificada.
+/*To the previous array, convert the first letter of each word to uppercase and show an alert for each word
+*modified.
 */
 console.log('-----EXERCISE 5.b-----');
 
@@ -19,9 +19,9 @@ colors.forEach(element => {
     alert(element.substring(0,1).toUpperCase() + element.substring (1).toLowerCase());
 });
 
-/*Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) recorrerlo con un
-*bucle for para ir guardando cada palabra dentro de la variable sentence. Al final mostrar una única alerta con
-*la cadena completa.
+/*Create a variable called "sentence" that has an empty string, then the array from point a) loop through it with a
+*for loop to save each word inside the sentence variable. At the end show a single alert with
+*the complete chain.
 */
 console.log('-----EXERCISE 5.c-----');
 
@@ -33,9 +33,9 @@ colors.forEach(element => {
 
 alert(sentence);
 
-/*Crear una array vacío y con un bucle for de 10 repeticiones. Llenar el array con el número de la repetición, es
-*decir que al final de la ejecución del bucle for debería haber 10 elementos dentro del array, desde el número 0
-*hasta al número 9. Mostrar por la consola del navegador el array final (utilizar console.log).
+/*Create an empty array and with a for loop of 10 repetitions. Fill the array with the number of the repetition, it is
+*say that at the end of the execution of the for loop there should be 10 elements inside the array, starting at number 0
+*up to number 9. Show the final array in the browser console (use console.log).
 */
 console.log('-----EXERCISE 5.d-----');
 
