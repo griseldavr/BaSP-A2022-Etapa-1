@@ -7,8 +7,36 @@
         <meta name="description" content="Time tracking software that lets you track work hours
         across projects">
         <title>Trackgenix</title>
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/login.css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
+        <script src="../javascript/login.js"></script>
     </head>
     <body>
-        
+        <section class="title">
+            <h1>Trackgenix</h1>
+        </section>
+        <section class="login">
+            <h2>Sign in</h2>
+            <form>
+                <div>
+                    <img src="../assets/img/icon-email-sign-up.png">
+                    <input type="text" id="email">
+                    </div>
+                <div>
+                    <img src="../assets/img/icon-pwd-sign-up.png">
+                    <input type="password" id="password">
+                </div>
+                <h3>Remember me</h3>
+                <div>
+                    <a href=""> Forgot password?</a>
+                </div>
+                <button class="btn-continue" type="submit">Continue</button>
+                <div class="error">
+                    <img src="../assets/img/icon-error.png">
+                    <h3>Incorrect e-mail or password</h3>
+                </div>
+            </form>
+        </section>
     </body>
 </html>

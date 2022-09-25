@@ -1,0 +1,72 @@
+body{
+    background-color:#FAFAFA;
+    font-family: Roboto;
+}
+
+.title {
+    padding: 2rem;
+    background-color:#373867;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 47px;
+}
+
+.login {
+    text-align: center;
+    margin: 2rem auto 8rem auto;
+    width: 75%;
+    height: fit-content;
+    background-color:#FFFFFF;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.login h2 {
+    padding: 4rem;
+    color: #373867;
+    font-size: 2rem;
+}
+
+.login h3 {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.login a:link, a:visited,  a:hover, a:active {
+    color:#373867;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.login input {
+    width: 45%;
+    padding: 0.5rem;
+    margin: 2rem 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.btn-continue {
+    width: 45%;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: #373867;
+    background-color: #AACE9B;
+    border: 1px solid #373867;
+    border-radius: 5px;
+}
+.error {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.border-blur {
+    border: 4px solid green;
+}
+.border-blur-error {
+    border: 4px solid red;
+}

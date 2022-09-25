@@ -7,8 +7,52 @@
         <meta name="description" content="Time tracking software that lets you track work hours
         across projects">
         <title>Trackgenix</title>
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/sign-up.css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
+        <script src="../javascript/sign-up.js"></script>
     </head>
     <body>
-        
+        <section class="title">
+            <h1>Trackgenix</h1>
+            <h2>Register/Employee</h2>
+        </section>
+        <section class="sign-up">
+            <h2>Sign up</h2>
+            <form class="sign-up-flex">
+                <div>
+                    <h3>First Name</h3>
+                    <input type="text" id="firstName">
+                    </div>
+                <div>
+                    <h3>Last Name</h3>
+                    <input type="password" id="lastName">
+                </div>
+                <div>
+                    <h3>E-mail</h3>
+                    <img src="../assets/img/icon-email-sign-up.png">
+                    <input type="text" id="email">
+                    </div>
+                <div>
+                    <h3>Password</h3>
+                    <img src="../assets/img/icon-pwd-sign-up.png">
+                    <input type="password" id="password">
+                </div>
+                <div>
+                    <h3>Repeat password</h3>
+                    <img src="../assets/img/icon-pwd-sign-up.png">
+                    <input type="password" class="password-repeat">
+                </div>
+                <button class="btn-create" type="submit">Create Account</button>
+                <div class="error">
+                    <img src="../assets/img/icon-error.png">
+                    <h3>Incorrect e-mail or password</h3>
+                </div>
+                <div>
+                    <h3>Already have an account?</h3>
+                    <a href=""> Sign in</a>
+                </div>
+            </form>
+        </section>
     </body>
 </html>

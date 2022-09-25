@@ -20,5 +20,10 @@ Practice with JavaScript exercises and correction of CSS Styles for the landing 
 Landing page site: https://griseldavr.github.io/BaSP-A2022-Etapa-1/
 Javascript exercises site: https://griseldavr.github.io/BaSP-A2022-Etapa-1//Week-05/index.html
 
+## Week 6
+
+Replication of sign up and login page for Trackgenix using javascript.
+Site:
+
 ## Authors
 -Griselda Vera
