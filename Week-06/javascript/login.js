@@ -6,43 +6,70 @@ window.onload = function() {
     var password = document.getElementById('password');
     password.setAttribute('value','Password');
 
-    email.onfocus = function() {
-        email.value='';
-    }
-    password.onfocus = function() {
-        password.value='';
-    }
+    var errorEmail = document.getElementById('error-email');
 
-    email.onblur = function() {
-        if (email.value==='') {
-            alert('E-mail must be filled out');
-            return email.classList.add('border-blur-error');
+    var validateEmail = function validateEmail() {
+
+        var isValidEmail = email.value;
+        var emailFormat = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+        if (emailFormat.test(isValidEmail)) {
+        email.classList.add('green-border');
+        return true;
         }
         else {
-            return email.classList.add('border-blur')
+        errorEmail.innerHTML = '*Please enter a valid e-mail address';
+        email.classList.add('red-border');
+        return false;
         }
     }
+    email.onblur = validateEmail;
 
+    email.onfocus = function() {
+        email.value = '';
+        email.classList.remove('red-border');
+        errorEmail.innerHTML = '';
+    }
+
+    var errorPwd = document.getElementById('error-pwd');
+
+    var validatePassword = function validatePassword() {
+
+        var isValidPassword = password.value;
+        var passwordFormat = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+
+        if (passwordFormat.test(isValidPassword)) {
+        password.classList.add('green-border');
+        return true;
+        }
+        else {
+        errorPwd.innerHTML = '*Password must be at least 8 characters long and contain letters and numbers';
+        password.classList.add('red-border');
+        return false;
+        }
+    }
+    password.onblur = validatePassword;
+
+    password.onfocus = function() {
+        password.value = '';
+        password.classList.remove('red-border');
+        errorPwd.innerHTML = '';
+        }
+
+    var btnLogin = document.getElementById('btn-login');
+
+    btnLogin.onclick = function (e) {
+        e.preventDefault();
+        var loginEmail = validateEmail();
+        var loginPwd = validatePassword();
+        if (loginEmail === true && loginPwd === true){
+            alert ('Your email address is '+ email.value +' and your password is '+ password.value);
+        }
+        else if (loginEmail !== true) {
+            alert (' [ERROR] Please check your e-mail address');
+        }
+        else if (loginPwd !== true) {
+            alert (' [ERROR] Please check your password');
+        }
+    };
 }
-
-
-// function validate(){
-//     var username = document.getElementsByClassName("username").value;
-//     var password = document.getElementsByClassName("password").value;
-//     if ( username == "" && password == "formget#123"){
-//     alert ("Login successfully");
-//     window.location = "success.html"; // Redirecting to other page.
-//     return false;
-//     }
-//     else{
-//     attempt --;// Decrementing by one.
-//     alert("You have left "+attempt+" attempt;");
-//     // Disabling fields after 3 attempts.
-//     if( attempt == 0){
-//     document.getElementById("username").disabled = true;
-//     document.getElementById("password").disabled = true;
-//     document.getElementById("submit").disabled = true;
-//     return false;
-//     }
-//     }
-//     }

@@ -13,29 +13,30 @@
         <script src="../javascript/login.js"></script>
     </head>
     <body>
-        <section class="title">
+        <section class="header">
             <h1>Trackgenix</h1>
         </section>
         <section class="login">
             <h2>Sign in</h2>
-            <form>
-                <div>
+            <form name="formlogin">
+                <div class="login-div">
                     <img src="../assets/img/icon-email-sign-up.png">
-                    <input type="text" id="email">
-                    </div>
+                    <input type="text" id="email" name="email">
                 <div>
+                <div id="error-email"></div>
+                <div class="login-div">
                     <img src="../assets/img/icon-pwd-sign-up.png">
-                    <input type="password" id="password">
+                    <input type="password" id="password" name="password">
                 </div>
-                <h3>Remember me</h3>
+                <div id="error-pwd"></div>
+                <div>
+                    <input type="checkbox" value="Remember-me" name="remember-checkbox" checked ="checked" class="remember-check">
+                    <label for="remember-checkbox">Remember me</label>
+                </div>
                 <div>
                     <a href=""> Forgot password?</a>
                 </div>
-                <button class="btn-continue" type="submit">Continue</button>
-                <div class="error">
-                    <img src="../assets/img/icon-error.png">
-                    <h3>Incorrect e-mail or password</h3>
-                </div>
+                <input type="submit" value = "Login" id="btn-login">
             </form>
         </section>
     </body>

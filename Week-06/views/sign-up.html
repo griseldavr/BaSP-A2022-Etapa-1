@@ -19,36 +19,48 @@
         </section>
         <section class="sign-up">
             <h2>Sign up</h2>
-            <form class="sign-up-flex">
-                <div>
-                    <h3>First Name</h3>
-                    <input type="text" id="firstName">
+            <form>
+                <div class="form-sign-up-flex">
+                    <div>
+                        <div class="sign-up-flex">
+                            <h3>First Name</h3>
+                            <input type="text" id="first-name">
+                            </div>
+                        <div class="sign-up-flex">
+                            <h3>Last Name</h3>
+                            <input type="text" id="last-name">
+                        </div>
                     </div>
-                <div>
-                    <h3>Last Name</h3>
-                    <input type="password" id="lastName">
-                </div>
-                <div>
-                    <h3>E-mail</h3>
-                    <img src="../assets/img/icon-email-sign-up.png">
-                    <input type="text" id="email">
+                    <div>
+                        <div class="sign-up-flex">
+                            <div class="sign-up-icon-flex">
+                                <h3>E-mail</h3>
+                                <img src="../assets/img/icon-email-sign-up.png">
+                            </div>
+                            <input type="text" id="email">
+                            </div>
+                        <div class="sign-up-flex">
+                            <div class="sign-up-icon-flex">
+                                <h3>Password</h3>
+                                <img src="../assets/img/icon-pwd-sign-up.png">
+                            </div>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="sign-up-flex">
+                            <div class="sign-up-icon-flex">
+                                <h3>Repeat password</h3>
+                                <img src="../assets/img/icon-pwd-sign-up.png">
+                            </div>
+                            <input type="password" class="password-repeat">
+                        </div>
                     </div>
-                <div>
-                    <h3>Password</h3>
-                    <img src="../assets/img/icon-pwd-sign-up.png">
-                    <input type="password" id="password">
-                </div>
-                <div>
-                    <h3>Repeat password</h3>
-                    <img src="../assets/img/icon-pwd-sign-up.png">
-                    <input type="password" class="password-repeat">
                 </div>
                 <button class="btn-create" type="submit">Create Account</button>
-                <div class="error">
+                <!-- <div class="error">
                     <img src="../assets/img/icon-error.png">
                     <h3>Incorrect e-mail or password</h3>
-                </div>
-                <div>
+                </div>-->
+                <div class="sign-in-link">
                     <h3>Already have an account?</h3>
                     <a href=""> Sign in</a>
                 </div>

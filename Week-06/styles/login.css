@@ -3,7 +3,7 @@ body{
     font-family: Roboto;
 }
 
-.title {
+.header {
     padding: 2rem;
     background-color:#373867;
     text-transform: uppercase;
@@ -43,14 +43,20 @@ body{
     line-height: 14px;
 }
 
-.login input {
-    width: 45%;
+.login .login-div {
     padding: 0.5rem;
     margin: 2rem 0;
-    border: none;
-    border-bottom: 2px solid black;
 }
-.btn-continue {
+
+.login .remember-check {
+    margin: 2rem 0;
+}
+
+.login label {
+    color:#373867;
+}
+
+#btn-login {
     width: 45%;
     margin: 2rem auto;
     padding: 1rem;
@@ -59,14 +65,17 @@ body{
     border: 1px solid #373867;
     border-radius: 5px;
 }
-.error {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
+.green-border {
+    border: 2px solid green;
 }
-.border-blur {
-    border: 4px solid green;
+.red-border {
+    border: 2px solid red;
 }
-.border-blur-error {
-    border: 4px solid red;
+
+#error-email {
+    color: red;
+}
+
+#error-pwd {
+    color: red;
 }
