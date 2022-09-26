@@ -11,9 +11,9 @@ window.onload = function() {
     var validateEmail = function validateEmail() {
 
         var isValidEmail = email.value;
-        var emailFormat = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+        var emailExpression =  /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
 
-        if (emailFormat.test(isValidEmail)) {
+        if (emailExpression.test(isValidEmail)) {
         email.classList.add('green-border');
         return true;
         }
@@ -64,6 +64,9 @@ window.onload = function() {
         var loginPwd = validatePassword();
         if (loginEmail === true && loginPwd === true){
             alert ('Your email address is '+ email.value +' and your password is '+ password.value);
+        }
+        else if (loginEmail === false && loginPwd === false) {
+            alert ('[ERROR] Please check information')
         }
         else if (loginEmail !== true) {
             alert (' [ERROR] Please check your e-mail address');
